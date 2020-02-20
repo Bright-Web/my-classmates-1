@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Keziah's App"/>
+<MyHeader />
+<router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MyHeader from './components/header/Header';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MyHeader
   }
 }
 </script>
